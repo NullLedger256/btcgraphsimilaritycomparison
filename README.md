@@ -1,4 +1,6 @@
-#Behavioral Enhanced Analysis of Bitcoin Transaction Graphs
+# Behavioral Enhanced Analysis of Bitcoin Transaction Graphs
+
+
 
 This approach provides a clear view of how these operational habits impact structural similarity scores compared to traditional baseline methods. It enables a more robust analysis by demonstrating how behavioral augmentation shifts similarity metrics, revealing connections and discrepancies that remain invisible when relying solely on graph topology.
 
