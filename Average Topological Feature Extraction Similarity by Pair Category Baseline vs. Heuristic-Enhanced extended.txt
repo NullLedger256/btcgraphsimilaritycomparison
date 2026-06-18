@@ -1,0 +1,201 @@
+====================================================================================================
+  FULL PER-THRESHOLD BREAKDOWN — Topological Feature Extraction Similarity
+====================================================================================================
+
+  ── Ordinary–Ordinary ──
+
+  Pair                   Method                    Score         Threshold     Time(s)
+  ------------------------------------------------------------------------------------
+  Legit-1 vs Legit-2     Baseline                 0.7967                 —     0.14440
+                         Neighborhood             0.8148                 —     0.14742
+                         Relay TFE                0.8251              δ≤6h     0.00343
+                         Relay TFE                0.7672             δ≤24h     0.00418
+                         Relay TFE                0.7706             δ≤48h     0.00505
+                         Relay TFE                0.7754             δ≤72h     0.00534
+                         Relay TFE                0.7761             δ≤96h     0.00553
+                         Fragmentation Split TFE   0.8252   ≤0.00000001 BTC     0.14202
+                         Fragmentation Split TFE   0.8238       ≤0.0001 BTC     0.14449
+                         Fragmentation Split TFE   0.8192        ≤0.001 BTC     0.14502
+                         Fragmentation Split TFE   0.8263         ≤0.01 BTC     0.13836
+
+  Legit-1 vs Legit-3     Baseline                 0.7944                 —     0.22753
+                         Neighborhood             0.8215                 —     0.22547
+                         Relay TFE                0.7841              δ≤6h     0.00486
+                         Relay TFE                0.7677             δ≤24h     0.00594
+                         Relay TFE                0.7713             δ≤48h     0.00677
+                         Relay TFE                0.7738             δ≤72h     0.00682
+                         Relay TFE                0.7720             δ≤96h     0.01025
+                         Fragmentation Split TFE   0.8314   ≤0.00000001 BTC     0.22590
+                         Fragmentation Split TFE   0.8291       ≤0.0001 BTC     0.23410
+                         Fragmentation Split TFE   0.8273        ≤0.001 BTC     0.23379
+                         Fragmentation Split TFE   0.8284         ≤0.01 BTC     0.22533
+
+  Legit-2 vs Legit-3     Baseline                 0.8723                 —     0.33908
+                         Neighborhood             0.8871                 —     0.37394
+                         Relay TFE                0.8901              δ≤6h     0.00609
+                         Relay TFE                0.9380             δ≤24h     0.00930
+                         Relay TFE                0.9603             δ≤48h     0.00985
+                         Relay TFE                0.9613             δ≤72h     0.01025
+                         Relay TFE                0.9461             δ≤96h     0.01352
+                         Fragmentation Split TFE   0.8898   ≤0.00000001 BTC     0.34197
+                         Fragmentation Split TFE   0.8899       ≤0.0001 BTC     0.34126
+                         Fragmentation Split TFE   0.8870        ≤0.001 BTC     0.33771
+                         Fragmentation Split TFE   0.8862         ≤0.01 BTC     0.34555
+
+
+  ── Mixer–Mixer ──
+
+  Pair                   Method                    Score         Threshold     Time(s)
+  ------------------------------------------------------------------------------------
+  Fog-1 vs Fog-2         Baseline                 0.8460                 —     0.07290
+                         Neighborhood             0.8532                 —     0.07849
+                         Relay TFE                0.8911              δ≤6h     0.00236
+                         Relay TFE                0.8833             δ≤24h     0.00282
+                         Relay TFE                0.8734             δ≤48h     0.00310
+                         Relay TFE                0.8694             δ≤72h     0.00345
+                         Relay TFE                0.8614             δ≤96h     0.00348
+                         Fragmentation Split TFE   0.8506   ≤0.00000001 BTC     0.07192
+                         Fragmentation Split TFE   0.8500       ≤0.0001 BTC     0.07265
+                         Fragmentation Split TFE   0.8462        ≤0.001 BTC     0.07359
+                         Fragmentation Split TFE   0.8451         ≤0.01 BTC     0.07035
+
+  Fog-1 vs Fog-3         Baseline                 0.8492                 —     0.13975
+                         Neighborhood             0.8597                 —     0.15017
+                         Relay TFE                0.8534              δ≤6h     0.00333
+                         Relay TFE                0.8126             δ≤24h     0.00528
+                         Relay TFE                0.8688             δ≤48h     0.00610
+                         Relay TFE                0.8673             δ≤72h     0.00645
+                         Relay TFE                0.8615             δ≤96h     0.00643
+                         Fragmentation Split TFE   0.8612   ≤0.00000001 BTC     0.13895
+                         Fragmentation Split TFE   0.8604       ≤0.0001 BTC     0.14349
+                         Fragmentation Split TFE   0.8596        ≤0.001 BTC     0.14165
+                         Fragmentation Split TFE   0.8601         ≤0.01 BTC     0.16044
+
+  Fog-2 vs Fog-3         Baseline                 0.8721                 —     0.19874
+                         Neighborhood             0.8900                 —     0.19538
+                         Relay TFE                0.9484              δ≤6h     0.00436
+                         Relay TFE                0.8617             δ≤24h     0.00711
+                         Relay TFE                0.8614             δ≤48h     0.00778
+                         Relay TFE                0.8586             δ≤72h     0.00820
+                         Relay TFE                0.8539             δ≤96h     0.00858
+                         Fragmentation Split TFE   0.8895   ≤0.00000001 BTC     0.18488
+                         Fragmentation Split TFE   0.8898       ≤0.0001 BTC     0.18735
+                         Fragmentation Split TFE   0.8866        ≤0.001 BTC     0.19143
+                         Fragmentation Split TFE   0.8844         ≤0.01 BTC     0.18308
+
+
+  ── Ordinary–Mixer ──
+
+  Pair                   Method                    Score         Threshold     Time(s)
+  ------------------------------------------------------------------------------------
+  Legit-1 vs Fog-1       Baseline                 0.7967                 —     0.02962
+                         Neighborhood             0.7924                 —     0.03222
+                         Relay TFE                0.8751              δ≤6h     0.00173
+                         Relay TFE                0.8404             δ≤24h     0.00210
+                         Relay TFE                0.8555             δ≤48h     0.00241
+                         Relay TFE                0.8651             δ≤72h     0.00387
+                         Relay TFE                0.8557             δ≤96h     0.00325
+                         Fragmentation Split TFE   0.7900   ≤0.00000001 BTC     0.03920
+                         Fragmentation Split TFE   0.7871       ≤0.0001 BTC     0.02911
+                         Fragmentation Split TFE   0.7804        ≤0.001 BTC     0.02807
+                         Fragmentation Split TFE   0.7894         ≤0.01 BTC     0.02903
+
+  Legit-1 vs Fog-2       Baseline                 0.7933                 —     0.07981
+                         Neighborhood             0.8052                 —     0.09267
+                         Relay TFE                0.8213              δ≤6h     0.00559
+                         Relay TFE                0.8047             δ≤24h     0.00512
+                         Relay TFE                0.8067             δ≤48h     0.00590
+                         Relay TFE                0.8162             δ≤72h     0.00409
+                         Relay TFE                0.8095             δ≤96h     0.00581
+                         Fragmentation Split TFE   0.8135   ≤0.00000001 BTC     0.08074
+                         Fragmentation Split TFE   0.8111       ≤0.0001 BTC     0.08883
+                         Fragmentation Split TFE   0.8083        ≤0.001 BTC     0.08835
+                         Fragmentation Split TFE   0.8133         ≤0.01 BTC     0.08234
+
+  Legit-1 vs Fog-3       Baseline                 0.7833                 —     0.15455
+                         Neighborhood             0.7943                 —     0.15041
+                         Relay TFE                0.7935              δ≤6h     0.00396
+                         Relay TFE                0.7497             δ≤24h     0.00608
+                         Relay TFE                0.7538             δ≤48h     0.00661
+                         Relay TFE                0.7578             δ≤72h     0.00756
+                         Relay TFE                0.7574             δ≤96h     0.00681
+                         Fragmentation Split TFE   0.7974   ≤0.00000001 BTC     0.14673
+                         Fragmentation Split TFE   0.7953       ≤0.0001 BTC     0.14373
+                         Fragmentation Split TFE   0.7893        ≤0.001 BTC     0.14401
+                         Fragmentation Split TFE   0.7975         ≤0.01 BTC     0.14147
+
+  Legit-2 vs Fog-1       Baseline                 0.8274                 —     0.15340
+                         Neighborhood             0.8342                 —     0.16588
+                         Relay TFE                0.8795              δ≤6h     0.00273
+                         Relay TFE                0.8322             δ≤24h     0.00378
+                         Relay TFE                0.8727             δ≤48h     0.00492
+                         Relay TFE                0.8674             δ≤72h     0.00497
+                         Relay TFE                0.8623             δ≤96h     0.00600
+                         Fragmentation Split TFE   0.8268   ≤0.00000001 BTC     0.14868
+                         Fragmentation Split TFE   0.8251       ≤0.0001 BTC     0.14945
+                         Fragmentation Split TFE   0.8227        ≤0.001 BTC     0.15401
+                         Fragmentation Split TFE   0.8235         ≤0.01 BTC     0.14630
+
+  Legit-2 vs Fog-2       Baseline                 0.8747                 —     0.18890
+                         Neighborhood             0.8887                 —     0.20487
+                         Relay TFE                0.9476              δ≤6h     0.00408
+                         Relay TFE                0.8632             δ≤24h     0.00522
+                         Relay TFE                0.8560             δ≤48h     0.00688
+                         Relay TFE                0.8555             δ≤72h     0.00640
+                         Relay TFE                0.8514             δ≤96h     0.00629
+                         Fragmentation Split TFE   0.8909   ≤0.00000001 BTC     0.19778
+                         Fragmentation Split TFE   0.8898       ≤0.0001 BTC     0.19186
+                         Fragmentation Split TFE   0.8908        ≤0.001 BTC     0.18974
+                         Fragmentation Split TFE   0.8840         ≤0.01 BTC     0.19910
+
+  Legit-2 vs Fog-3       Baseline                 0.9564                 —     0.26264
+                         Neighborhood             0.9523                 —     0.27024
+                         Relay TFE                0.9353              δ≤6h     0.00476
+                         Relay TFE                0.9138             δ≤24h     0.00804
+                         Relay TFE                0.9197             δ≤48h     0.00946
+                         Relay TFE                0.9193             δ≤72h     0.00992
+                         Relay TFE                0.9172             δ≤96h     0.01060
+                         Fragmentation Split TFE   0.9481   ≤0.00000001 BTC     0.24905
+                         Fragmentation Split TFE   0.9473       ≤0.0001 BTC     0.24762
+                         Fragmentation Split TFE   0.9456        ≤0.001 BTC     0.25572
+                         Fragmentation Split TFE   0.9449         ≤0.01 BTC     0.24822
+
+  Legit-3 vs Fog-1       Baseline                 0.8048                 —     0.21155
+                         Neighborhood             0.8088                 —     0.22365
+                         Relay TFE                0.8024              δ≤6h     0.00464
+                         Relay TFE                0.7942             δ≤24h     0.00571
+                         Relay TFE                0.8575             δ≤48h     0.00671
+                         Relay TFE                0.8551             δ≤72h     0.00725
+                         Relay TFE                0.8382             δ≤96h     0.00916
+                         Fragmentation Split TFE   0.8006   ≤0.00000001 BTC     0.24172
+                         Fragmentation Split TFE   0.7992       ≤0.0001 BTC     0.23386
+                         Fragmentation Split TFE   0.7939        ≤0.001 BTC     0.23477
+                         Fragmentation Split TFE   0.7993         ≤0.01 BTC     0.23033
+
+  Legit-3 vs Fog-2       Baseline                 0.8563                 —     0.27773
+                         Neighborhood             0.8675                 —     0.28536
+                         Relay TFE                0.8906              δ≤6h     0.00612
+                         Relay TFE                0.8585             δ≤24h     0.00721
+                         Relay TFE                0.8437             δ≤48h     0.00899
+                         Relay TFE                0.8425             δ≤72h     0.00842
+                         Relay TFE                0.8308             δ≤96h     0.01244
+                         Fragmentation Split TFE   0.8681   ≤0.00000001 BTC     0.27969
+                         Fragmentation Split TFE   0.8672       ≤0.0001 BTC     0.28969
+                         Fragmentation Split TFE   0.8656        ≤0.001 BTC     0.44400
+                         Fragmentation Split TFE   0.8692         ≤0.01 BTC     0.40292
+
+  Legit-3 vs Fog-3       Baseline                 0.8614                 —     0.50161
+                         Neighborhood             0.8682                 —     0.50971
+                         Relay TFE                0.9146              δ≤6h     0.00649
+                         Relay TFE                0.9434             δ≤24h     0.00979
+                         Relay TFE                0.9343             δ≤48h     0.02003
+                         Relay TFE                0.9353             δ≤72h     0.01683
+                         Relay TFE                0.9348             δ≤96h     0.01516
+                         Fragmentation Split TFE   0.8640   ≤0.00000001 BTC     0.43509
+                         Fragmentation Split TFE   0.8634       ≤0.0001 BTC     0.53339
+                         Fragmentation Split TFE   0.8588        ≤0.001 BTC     0.45538
+                         Fragmentation Split TFE   0.8636         ≤0.01 BTC     0.47571
+
+====================================================================================================
+  Total runtime: 19.48 s
+====================================================================================================

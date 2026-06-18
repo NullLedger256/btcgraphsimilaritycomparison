@@ -1,0 +1,201 @@
+====================================================================================================
+  WL COSINE SIMILARITY: DETAILED PER-THRESHOLD REPORT
+====================================================================================================
+
+  ── Ordinary–Ordinary ──
+
+  Pair                   Method                    Score       Threshold     Time(s)
+  ----------------------------------------------------------------------------------
+  Legit-1 vs Legit-2     Baseline                 0.9984               —     0.00371
+                         Neighborhood             0.8455               —     0.01168
+                         Relay WL                 0.9983            δ≤6h     0.00463
+                         Relay WL                 0.9985           δ≤24h     0.00431
+                         Relay WL                 0.9985           δ≤48h     0.00459
+                         Relay WL                 0.9986           δ≤72h     0.00642
+                         Relay WL                 0.9986           δ≤96h     0.00563
+                         Fragmentation Split WL   0.9116   ≤0.00000001 BTC     0.00607
+                         Fragmentation Split WL   0.9215       ≤0.0001 BTC     0.00586
+                         Fragmentation Split WL   0.8707        ≤0.001 BTC     0.00588
+                         Fragmentation Split WL   0.8495         ≤0.01 BTC     0.00771
+
+  Legit-1 vs Legit-3     Baseline                 0.9981               —     0.00403
+                         Neighborhood             0.8644               —     0.01410
+                         Relay WL                 0.9987            δ≤6h     0.00579
+                         Relay WL                 0.9988           δ≤24h     0.00553
+                         Relay WL                 0.9988           δ≤48h     0.00516
+                         Relay WL                 0.9988           δ≤72h     0.00503
+                         Relay WL                 0.9989           δ≤96h     0.00491
+                         Fragmentation Split WL   0.9063   ≤0.00000001 BTC     0.00700
+                         Fragmentation Split WL   0.9167       ≤0.0001 BTC     0.00756
+                         Fragmentation Split WL   0.8970        ≤0.001 BTC     0.00770
+                         Fragmentation Split WL   0.8784         ≤0.01 BTC     0.00864
+
+  Legit-2 vs Legit-3     Baseline                 0.9987               —     0.00582
+                         Neighborhood             0.9575               —     0.02412
+                         Relay WL                 0.9991            δ≤6h     0.00773
+                         Relay WL                 0.9991           δ≤24h     0.00752
+                         Relay WL                 0.9992           δ≤48h     0.00730
+                         Relay WL                 0.9992           δ≤72h     0.00716
+                         Relay WL                 0.9992           δ≤96h     0.00704
+                         Fragmentation Split WL   0.9792   ≤0.00000001 BTC     0.01183
+                         Fragmentation Split WL   0.9839       ≤0.0001 BTC     0.01215
+                         Fragmentation Split WL   0.9621        ≤0.001 BTC     0.01273
+                         Fragmentation Split WL   0.9238         ≤0.01 BTC     0.01088
+
+
+  ── Mixer–Mixer ──
+
+  Pair                   Method                    Score       Threshold     Time(s)
+  ----------------------------------------------------------------------------------
+  Fog-1 vs Fog-2         Baseline                 0.9871               —     0.00236
+                         Neighborhood             0.8114               —     0.00924
+                         Relay WL                 0.9881            δ≤6h     0.00446
+                         Relay WL                 0.9874           δ≤24h     0.00339
+                         Relay WL                 0.9873           δ≤48h     0.00309
+                         Relay WL                 0.9870           δ≤72h     0.00301
+                         Relay WL                 0.9874           δ≤96h     0.00333
+                         Fragmentation Split WL   0.9060   ≤0.00000001 BTC     0.00448
+                         Fragmentation Split WL   0.9129       ≤0.0001 BTC     0.00481
+                         Fragmentation Split WL   0.9080        ≤0.001 BTC     0.00470
+                         Fragmentation Split WL   0.8645         ≤0.01 BTC     0.00477
+
+  Fog-1 vs Fog-3         Baseline                 0.9925               —     0.00350
+                         Neighborhood             0.8332               —     0.01157
+                         Relay WL                 0.9932            δ≤6h     0.00488
+                         Relay WL                 0.9929           δ≤24h     0.00457
+                         Relay WL                 0.9921           δ≤48h     0.00428
+                         Relay WL                 0.9919           δ≤72h     0.00437
+                         Relay WL                 0.9923           δ≤96h     0.00437
+                         Fragmentation Split WL   0.9275   ≤0.00000001 BTC     0.00560
+                         Fragmentation Split WL   0.9333       ≤0.0001 BTC     0.00571
+                         Fragmentation Split WL   0.9348        ≤0.001 BTC     0.00551
+                         Fragmentation Split WL   0.9124         ≤0.01 BTC     0.00563
+
+  Fog-2 vs Fog-3         Baseline                 0.9988               —     0.00397
+                         Neighborhood             0.9314               —     0.01563
+                         Relay WL                 0.9987            δ≤6h     0.00523
+                         Relay WL                 0.9987           δ≤24h     0.00510
+                         Relay WL                 0.9989           δ≤48h     0.00531
+                         Relay WL                 0.9988           δ≤72h     0.00493
+                         Relay WL                 0.9989           δ≤96h     0.00499
+                         Fragmentation Split WL   0.9787   ≤0.00000001 BTC     0.00770
+                         Fragmentation Split WL   0.9784       ≤0.0001 BTC     0.00826
+                         Fragmentation Split WL   0.9696        ≤0.001 BTC     0.00739
+                         Fragmentation Split WL   0.9571         ≤0.01 BTC     0.00722
+
+
+  ── Ordinary–Mixer ──
+
+  Pair                   Method                    Score       Threshold     Time(s)
+  ----------------------------------------------------------------------------------
+  Legit-1 vs Fog-1       Baseline                 0.9828               —     0.00171
+                         Neighborhood             0.7528               —     0.00577
+                         Relay WL                 0.9863            δ≤6h     0.00217
+                         Relay WL                 0.9872           δ≤24h     0.00217
+                         Relay WL                 0.9873           δ≤48h     0.00202
+                         Relay WL                 0.9869           δ≤72h     0.00331
+                         Relay WL                 0.9876           δ≤96h     0.00193
+                         Fragmentation Split WL   0.8930   ≤0.00000001 BTC     0.00278
+                         Fragmentation Split WL   0.8807       ≤0.0001 BTC     0.00280
+                         Fragmentation Split WL   0.7490        ≤0.001 BTC     0.00306
+                         Fragmentation Split WL   0.7251         ≤0.01 BTC     0.00273
+
+  Legit-1 vs Fog-2       Baseline                 0.9979               —     0.00255
+                         Neighborhood             0.8369               —     0.00866
+                         Relay WL                 0.9985            δ≤6h     0.00346
+                         Relay WL                 0.9980           δ≤24h     0.00312
+                         Relay WL                 0.9980           δ≤48h     0.00315
+                         Relay WL                 0.9981           δ≤72h     0.00311
+                         Relay WL                 0.9982           δ≤96h     0.00308
+                         Fragmentation Split WL   0.9172   ≤0.00000001 BTC     0.00580
+                         Fragmentation Split WL   0.9168       ≤0.0001 BTC     0.00637
+                         Fragmentation Split WL   0.8265        ≤0.001 BTC     0.00614
+                         Fragmentation Split WL   0.8156         ≤0.01 BTC     0.00437
+
+  Legit-1 vs Fog-3       Baseline                 0.9960               —     0.00321
+                         Neighborhood             0.8544               —     0.02990
+                         Relay WL                 0.9969            δ≤6h     0.00419
+                         Relay WL                 0.9973           δ≤24h     0.00418
+                         Relay WL                 0.9975           δ≤48h     0.00799
+                         Relay WL                 0.9975           δ≤72h     0.00661
+                         Relay WL                 0.9976           δ≤96h     0.00795
+                         Fragmentation Split WL   0.9278   ≤0.00000001 BTC     0.01423
+                         Fragmentation Split WL   0.9259       ≤0.0001 BTC     0.01334
+                         Fragmentation Split WL   0.8170        ≤0.001 BTC     0.01857
+                         Fragmentation Split WL   0.8278         ≤0.01 BTC     0.02410
+
+  Legit-2 vs Fog-1       Baseline                 0.9849               —     0.00980
+                         Neighborhood             0.8160               —     0.04559
+                         Relay WL                 0.9895            δ≤6h     0.02244
+                         Relay WL                 0.9901           δ≤24h     0.03254
+                         Relay WL                 0.9900           δ≤48h     0.00945
+                         Relay WL                 0.9899           δ≤72h     0.02006
+                         Relay WL                 0.9904           δ≤96h     0.02046
+                         Fragmentation Split WL   0.8740   ≤0.00000001 BTC     0.01334
+                         Fragmentation Split WL   0.8867       ≤0.0001 BTC     0.01816
+                         Fragmentation Split WL   0.8938        ≤0.001 BTC     0.02794
+                         Fragmentation Split WL   0.8825         ≤0.01 BTC     0.03184
+
+  Legit-2 vs Fog-2       Baseline                 0.9986               —     0.02803
+                         Neighborhood             0.9293               —     0.02424
+                         Relay WL                 0.9986            δ≤6h     0.01175
+                         Relay WL                 0.9978           δ≤24h     0.01313
+                         Relay WL                 0.9979           δ≤48h     0.01599
+                         Relay WL                 0.9979           δ≤72h     0.01322
+                         Relay WL                 0.9978           δ≤96h     0.02062
+                         Fragmentation Split WL   0.9735   ≤0.00000001 BTC     0.02003
+                         Fragmentation Split WL   0.9735       ≤0.0001 BTC     0.01697
+                         Fragmentation Split WL   0.9721        ≤0.001 BTC     0.01794
+                         Fragmentation Split WL   0.9265         ≤0.01 BTC     0.02038
+
+  Legit-2 vs Fog-3       Baseline                 0.9972               —     0.01085
+                         Neighborhood             0.9425               —     0.01790
+                         Relay WL                 0.9983            δ≤6h     0.01165
+                         Relay WL                 0.9979           δ≤24h     0.01051
+                         Relay WL                 0.9979           δ≤48h     0.00720
+                         Relay WL                 0.9979           δ≤72h     0.00662
+                         Relay WL                 0.9978           δ≤96h     0.00642
+                         Fragmentation Split WL   0.9710   ≤0.00000001 BTC     0.00902
+                         Fragmentation Split WL   0.9705       ≤0.0001 BTC     0.00876
+                         Fragmentation Split WL   0.9660        ≤0.001 BTC     0.00871
+                         Fragmentation Split WL   0.9546         ≤0.01 BTC     0.00942
+
+  Legit-3 vs Fog-1       Baseline                 0.9796               —     0.00422
+                         Neighborhood             0.8237               —     0.01574
+                         Relay WL                 0.9857            δ≤6h     0.00528
+                         Relay WL                 0.9865           δ≤24h     0.00536
+                         Relay WL                 0.9864           δ≤48h     0.00526
+                         Relay WL                 0.9864           δ≤72h     0.00518
+                         Relay WL                 0.9869           δ≤96h     0.00569
+                         Fragmentation Split WL   0.8604   ≤0.00000001 BTC     0.00702
+                         Fragmentation Split WL   0.8744       ≤0.0001 BTC     0.00716
+                         Fragmentation Split WL   0.8612        ≤0.001 BTC     0.00774
+                         Fragmentation Split WL   0.8290         ≤0.01 BTC     0.00831
+
+  Legit-3 vs Fog-2       Baseline                 0.9985               —     0.00497
+                         Neighborhood             0.9410               —     0.01705
+                         Relay WL                 0.9988            δ≤6h     0.00638
+                         Relay WL                 0.9984           δ≤24h     0.00673
+                         Relay WL                 0.9985           δ≤48h     0.00613
+                         Relay WL                 0.9983           δ≤72h     0.00598
+                         Relay WL                 0.9983           δ≤96h     0.00799
+                         Fragmentation Split WL   0.9626   ≤0.00000001 BTC     0.00875
+                         Fragmentation Split WL   0.9671       ≤0.0001 BTC     0.00933
+                         Fragmentation Split WL   0.9365        ≤0.001 BTC     0.01083
+                         Fragmentation Split WL   0.9247         ≤0.01 BTC     0.00860
+
+  Legit-3 vs Fog-3       Baseline                 0.9961               —     0.00567
+                         Neighborhood             0.9544               —     0.02281
+                         Relay WL                 0.9975            δ≤6h     0.00737
+                         Relay WL                 0.9976           δ≤24h     0.00723
+                         Relay WL                 0.9977           δ≤48h     0.00708
+                         Relay WL                 0.9977           δ≤72h     0.00717
+                         Relay WL                 0.9977           δ≤96h     0.00706
+                         Fragmentation Split WL   0.9697   ≤0.00000001 BTC     0.00936
+                         Fragmentation Split WL   0.9657       ≤0.0001 BTC     0.01090
+                         Fragmentation Split WL   0.9341        ≤0.001 BTC     0.00947
+                         Fragmentation Split WL   0.9349         ≤0.01 BTC     0.00955
+
+====================================================================================================
+  WL iterations = 3  |  Total runtime: 11.01 s
+====================================================================================================

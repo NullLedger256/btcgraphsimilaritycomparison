@@ -1,0 +1,17 @@
+digraph G {
+  rankdir=TB;
+  node [shape=box, fontsize=10];
+
+  "16GHV8h9Yq5hEWaoyakEc3wQyTDstyben6" -> "bc1qdx4jhnqdsrqvtm077eu7t25afte7c95skk5w45" [label=""];
+  "bc1qdx4jhnqdsrqvtm077eu7t25afte7c95skk5w45" -> "bc1qzuqm3zu0nm940umzlrzeth6mulq5kppqgx2r5l" [label=""];
+  "bc1qzuqm3zu0nm940umzlrzeth6mulq5kppqgx2r5l" -> "19DwDrtZ78iGjmqZbkjcksnoCTKgpiJKFu" [label=""];
+  "bc1qzuqm3zu0nm940umzlrzeth6mulq5kppqgx2r5l" -> "1JKhUSNYH8N4KiU956vEjv1km4YynxE8kV" [label=""];
+  "19DwDrtZ78iGjmqZbkjcksnoCTKgpiJKFu" -> "bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h" [label=""];
+
+  "16GHV8h9Yq5hEWaoyakEc3wQyTDstyben6" [label="16GHV8h9Yq5hEWaoyakEc3wQyTDstyben6\nValue: 0.03500000 BTC\nTime: 2022-12-26 15:10:35 UTC"];
+  "bc1qdx4jhnqdsrqvtm077eu7t25afte7c95skk5w45" [label="bc1qdx4jhnqdsrqvtm077eu7t25afte7c95skk5w45\nValue: 0.03500000 BTC\nTime: 2022-12-26 19:56:54 UTC"];
+  "bc1qzuqm3zu0nm940umzlrzeth6mulq5kppqgx2r5l" [label="bc1qzuqm3zu0nm940umzlrzeth6mulq5kppqgx2r5l\nValue: 0.88393630 BTC\nTime: 2022-12-26 22:38:51 UTC"];
+  "19DwDrtZ78iGjmqZbkjcksnoCTKgpiJKFu" [label="19DwDrtZ78iGjmqZbkjcksnoCTKgpiJKFu\nValue: 0.00353835 BTC\nTime: 2022-12-29 04:45:25 UTC"];
+  "1JKhUSNYH8N4KiU956vEjv1km4YynxE8kV" [label="1JKhUSNYH8N4KiU956vEjv1km4YynxE8kV\nValue: 0.00685266 BTC\nTime: 2025-01-05 02:15:23 UTC"];
+  "bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h" [label="bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h\nValue: 1.48830930 BTC\nTime: 2026-05-21 21:09:41 UTC"];
+}
